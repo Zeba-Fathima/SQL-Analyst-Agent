@@ -24,10 +24,8 @@ polished **Gradio** UI.
 ## 🧠 Architecture (LangGraph)
 
 ```
-START → get_schema → generate_sql → (harmful?) ──► guardrail ──► execute
-                                    (read)     ──────────────►  execute
-execute ──(read error, retries left)──► generate_sql   (self-correction)
-guardrail: interrupt(email) → verify → preview impact → interrupt(confirm)
+<img width="848" height="872" alt="image" src="https://github.com/user-attachments/assets/332b53da-f2ed-49a9-a4b3-5ad6d9ca6f32" />
+
 ```
 
 - **State** carries the question, schema, SQL, error, retry count.
