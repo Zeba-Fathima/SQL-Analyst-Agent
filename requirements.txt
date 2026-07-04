@@ -1,0 +1,8 @@
+langgraph>=0.2.0
+langchain>=0.3.0
+gradio>=4.44.0
+python-dotenv>=1.0.0
+
+# Pick the provider you use (only one is needed):
+langchain-groq>=0.2.0            # for LLM_MODEL=groq:...
+langchain-google-genai>=2.0.0    # for LLM_MODEL=google_genai:...
