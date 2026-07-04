@@ -23,10 +23,8 @@ polished **Gradio** UI.
 
 ## 🧠 Architecture (LangGraph)
 
-```
 <img width="848" height="872" alt="image" src="https://github.com/user-attachments/assets/332b53da-f2ed-49a9-a4b3-5ad6d9ca6f32" />
 
-```
 
 - **State** carries the question, schema, SQL, error, retry count.
 - **Interrupts** power the email + confirmation steps.
